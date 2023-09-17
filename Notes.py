@@ -19,9 +19,6 @@ class Note:
         self.header = header
         self.text = text
         self.date = date
-    
-    # def __str__(self) -> str:
-    #     return f"id: {self.id}\ndatetime: {self.date}\nHeader: {self.header}\ntext: {self.text}\n"
         
 class NoteBook():
     def __init__(self, file_name) -> None:
